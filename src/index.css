@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --admin-primary: #2563eb;
+    --admin-primary-hover: #1d4ed8;
+    --admin-primary-bg: #eff6ff;
+    
+    --admin-secondary: #123b7a;
+    --admin-secondary-dark: #102a56;
+    
+    --admin-accent: #f59e0b;
+    --admin-accent-hover: #d97706;
+    
+    --admin-bg-app: #f6f8fc;
+    --admin-bg-surface: #ffffff;
+    --admin-bg-muted: #f1f5f9;
+    
+    --admin-border-subtle: #e6eaf0;
+    --admin-border-default: #e5e7eb;
+    
+    --admin-text-primary: #172033;
+    --admin-text-secondary: #64748b;
+    
+    --admin-success: #16a34a;
+    --admin-warning: #d97706;
+    --admin-danger: #dc2626;
+    --admin-info: #2563eb;
+  }
+}
